@@ -22,8 +22,8 @@ against an off-the-shelf coding agent as a baseline.
 The 66 tasks in `dataset/` are derived from
 [Splunk Security Content](https://github.com/splunk/security_content) and
 [Splunk Attack Data](https://github.com/splunk/attack_data), both distributed
-under the Apache License 2.0, and are redistributed here. Each task records its
-upstream detection rule in `source.rule_source`.
+under the Apache License 2.0, and are redistributed here. Tasks record its
+upstream detection rule in `source.rule_source` when relevant.
 
 The log lines are not byte-identical to upstream. Hostnames and MITRE technique
 identifiers that were artifacts of the attack simulations were rewritten before
