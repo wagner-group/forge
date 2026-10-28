@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+title: "FoRGe: Feedback-Oriented Rule Generation for Security Log Detection"
+type: software
+authors:
+  - family-names: Wen
+    given-names: Aidan
+  - family-names: Shieh
+    given-names: Karen
+  - family-names: Jiang
+    given-names: Jingzhi
+  - family-names: Zhang
+    given-names: Andy
+repository-code: "https://github.com/wagner-group/forge"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "FoRGe: Feedback-Oriented Rule Generation for Security Log Detection"
+  authors:
+    - family-names: Wen
+      given-names: Aidan
+    - family-names: Shieh
+      given-names: Karen
+    - family-names: Jiang
+      given-names: Jingzhi
+    - family-names: Zhang
+      given-names: Andy
+    - family-names: Alkhudair
+      given-names: Raghad
+    - family-names: Alomair
+      given-names: Basel
+    - family-names: Wagner
+      given-names: David
+  collection-title: "Proceedings of the 29th Information Security Conference (ISC 2026)"
+  conference:
+    name: "29th Information Security Conference (ISC 2026)"
+    city: Rennes
+    country: FR
+  publisher:
+    name: Springer
+  year: 2026
+  month: 10
