@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Wagner Research Group
+Copyright (c) 2026 Aidan Wen, Karen Shieh, Jingzhi Jiang, Andy Zhang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+SCOPE
+
+The grant above covers the material original to this artifact: the FoRGe
+harness, the Claude agent driver, the evaluation and scoring scripts, and the
+assembly of the dataset.
+
+It does not relicense third-party material redistributed here. The detection
+rules in dataset/final/*.json derive from Splunk Security Content and the log
+lines derive from Splunk Attack Data. Both are distributed upstream under the
+Apache License 2.0:
+
+    https://github.com/splunk/security_content
+    https://github.com/splunk/attack_data
+
+See the Attribution section of README.md. Recipients must observe the upstream
+terms for that content in addition to the terms above.

@@ -1,0 +1,18 @@
+# FoRGe artifact — Python dependencies (Python >= 3.10; 3.9 fails on PEP 604
+# unions in splunk_rule_testing/eval_test_split/_scoring.py).
+#
+# Running the FoRGe agent (needs a Gemini API key or Vertex project):
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# FoRGe's OpenAI provider (FORGE_PROVIDER=openai, used for the GPT-5.6 Luna
+# same-model control) and the Codex CLI harness:
+openai>=2.0.0
+
+# Splunk detection engine (only used with --splunk-mode; the paper's Tables 3
+# and 4 are regex mode, which needs neither):
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Re-scoring the shipped frozen regexes needs none of the above: it is stdlib
+# `re` + `json` only.

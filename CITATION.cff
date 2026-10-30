@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this artifact, please cite the paper."
 title: "FoRGe: Feedback-Oriented Rule Generation for Security Log Detection"
+message: "If you use this artifact, please cite the paper."
 type: software
 authors:
   - family-names: Wen
@@ -11,8 +11,6 @@ authors:
     given-names: Jingzhi
   - family-names: Zhang
     given-names: Andy
-repository-code: "https://github.com/wagner-group/forge"
-license: MIT
 preferred-citation:
   type: conference-paper
   title: "FoRGe: Feedback-Oriented Rule Generation for Security Log Detection"
@@ -40,3 +38,5 @@ preferred-citation:
     name: Springer
   year: 2026
   month: 10
+  # Add volume, pages and doi here once Springer publishes the ISC 2026
+  # proceedings.

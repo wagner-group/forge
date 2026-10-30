@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+gemini.txt
+*.key
+credentials.json
+
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Scoring outputs
+eval_summary/
+out/
+
+# Experiment output: ~1.6 GB across 20,000 files, deposited separately (see
+# README, "Where the experiment data lives"). Downloaded into place as results/.
+# It must never enter this repository's history.
+results/
